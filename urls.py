@@ -19,5 +19,5 @@ routes = {
     '/examples/': Examples(),
     '/page/': Page(),
     '/another_page/': Another_page(),
-    '/contacts.html/': Contacts(),
+    '/contacts/': Contacts(),
 }
