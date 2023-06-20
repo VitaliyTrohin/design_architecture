@@ -14,7 +14,7 @@ class About:
 
 class Examples:
     def __call__(self, request):
-        return '200 OK', render('exemples.html')
+        return '200 OK', render('examples.html')
 
 
 class Page:
@@ -22,12 +22,7 @@ class Page:
         return '200 OK', render('page.html')
 
 
-class Examples:
-    def __call__(self, request):
-        return '200 OK', render('exemples.html')
-
-
-class Another_page:
+class AnotherPage:
     def __call__(self, request):
         return '200 OK', render('another_page.html')
 
