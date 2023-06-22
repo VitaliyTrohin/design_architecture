@@ -1,4 +1,4 @@
-# get my_requests
+# get requests
 class GetRequests:
 
     @staticmethod
@@ -22,7 +22,7 @@ class GetRequests:
         return request_params
 
 
-# post my_requests
+# post requests
 class PostRequests:
 
     @staticmethod

@@ -6,10 +6,11 @@ class Index:
     def __call__(self, request):
         return '200 OK', render('index.html')
 
-
+"""
 class About:
     def __call__(self, request):
         return '200 OK', 'about'
+"""
         
 
 class Examples:
@@ -20,11 +21,6 @@ class Examples:
 class Page:
     def __call__(self, request):
         return '200 OK', render('page.html')
-
-
-class AnotherPage:
-    def __call__(self, request):
-        return '200 OK', render('another_page.html')
 
 
 class Contacts:
